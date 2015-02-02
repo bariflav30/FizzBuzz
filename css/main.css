@@ -1,0 +1,12 @@
+body {
+	background-color: #333;
+}
+
+.container {
+	margin: 0 auto;
+}
+h1 {
+	font-size: 72px;
+	color: #fff;
+	text-align: center;
+}
