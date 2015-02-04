@@ -4,15 +4,15 @@ var number = prompt("Pick a number to FizzBuzz up to!");
 
 for (i=1; i<=number; i++) {
   if (i%15===0) {
-    console.log("FizzBuzz");
+    document.write("FizzBuzz<br>");
   }
   else if (i%3===0) {
-    console.log("Fizz");
+    document.write("Fizz<br>");
   }
   else if (i%5===0) {
-    console.log("Buzz");
+    document.write("Buzz<br>");
   }
   else {
-    console.log(i);
+    document.write(i+"<br>");
   }
 }
